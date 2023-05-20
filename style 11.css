@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700;800;900&family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;1,300&family=Quicksand:wght@300;400;500;600&display=swap');
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+   border: none;
+   outline: none;
+   scroll-behavior: smooth;
+   font-family: "Quicksand", sans-serif;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body{
+    background: black;
+    color: #333;
+    
+}
+.home-content h3{
+    color: white;
+}
+.home-content h1{
+    color: white;
+}
+.home-content p{
+    color: white;
+}
+.services h2{
+    color: white;
+}
+.about-content h2{
+    color: white;
+}
+.about-content p{
+    color: whitesmoke;
+}
+.about-content h3{
+    color: white;
+}
+.navbar{
+    padding: 1.2rem;
+}
+.navbar-brand{
+    color: #fff;
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1px;
+}
+.navbar-nav{
+    padding: 0.8rem 0 0.2rem 0;
+    text-align: center;
+}
+.navbar-nav a{
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 6px 2px;
+    letter-spacing: 3px;
+    transition: opacity 0.5s ease;
+}
+.navbar-nav a:hover{
+    opacity: 0.7;
+}
+
+
+
+.header{
+    position:fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 7%;
+    background: orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    z-index: 100;
+}
+.logo{
+    font-size: 50px;
+    color: black;
+    font-weight: 1000;
+    cursor: default;
+    margin-right: auto;
+    font-family: "Quicksand", sans-serif;
+}
+.header .sticky .navbar a{
+    color: #333;
+}
+
+#darkMode-icon{
+    font-size: 2.4rem;
+    color: #fdfdfd;
+    cursor: pointer;
+}
+section{
+    min-height: 100vh;
+    padding:10rem 7% 2rem;
+}
+.home{
+    display: flex;
+    align-items: center;
+}
+ .home .home-content{
+    max-width: 44rem;
+ }
+ .home-content h3{
+    font-size: 3.2rem;
+    font-weight: 700;
+    line-height: .3;
+ }
+.home-content h1{
+    font-size: 5.6rem;
+    font-weight: 700;
+    margin-bottom: .3rem;
+}
+.home-content p{
+    font-size: 1.6rem;
+}
+.home-content .social-media a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    background: transparent;
+    border: .2rem solid #754ef9;
+    border-radius: 50%;
+    box-shadow: 0 .2rem .5rem rgba(0,0,0,.2);
+    margin: 2.5rem 1.5rem 3rem 0;
+}
+.home-content .social-media a:hover{
+    background: #754ef9;
+    color: #fdfdfd;
+
+}
+
+.btn {
+    display: inline-block;
+    padding: 1.2rem 2.8rem;
+    background:  #754ef9;
+    border-radius: .6rem;
+    box-shadow: 0 .2rem .5rem rgba(0,0,0,.2);
+    font-size: 1.6rem;
+    color: #fdfdfd;
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .5s ease;
+}
+.btn:hover{
+    background: white;
+    color: black;
+}
+.btn-d{
+    display: inline-block;
+    padding: 1.2rem 2.8rem;
+    background:  #754ef9;
+    border-radius: .6rem;
+    box-shadow: 0 .2rem .5rem rgba(0,0,0,.2);
+    font-size: 1.6rem;
+    color: #fdfdfd;
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .5s ease;
+    margin-top: 20px;
+}
+.btn-d:hover{
+    background: white;
+    color: black;
+}
+
+span{
+    color: orange;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+.about-img img{
+    width: 40vw;
+}
+.heading{
+    font-size: 4.5rem;
+    text-align: center;
+}
+.about-content h2{
+    text-align: left;
+    line-height: 1.2;
+    font-size: 2rem;
+}
+.about-content h3{
+    font-size: 2rem;
+}
+.about-content p{
+    font-size: 1.6rem;
+    margin: 2rem 0 3rem;
+}
+.services{
+    min-height: auto;
+    padding-bottom: 7rem;
+}
+
+.services h2{
+    margin-bottom: 5rem;
+}
+.services .services-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem
+}
+.services-container .services-box{
+    flex: 1 1 30rem;
+    background: #fdfdfd;
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    box-shadow: 0 .1rem .5rem rgba(0,0,0,.2);
+    text-align: center;
+    border-top: .6rem solid orange;
+    border-bottom: .6rem solid  orange;   
+}
+.services-box i{
+    font-size: 7rem;
+    color: #754ef9;
+}
+
+.services-box h3{
+  font-size: 2.6rem;
+}
+
+.services-box p{
+    font-size: 1.6rem;
+    margin: 1rem 0 3rem;
+}
+@media screen and (min-width: 540px){
+    .navbar-nav a{
+        padding-right: 19px;
+        padding-left: 19px;
+    }
+
+}
+@media screen and (min-width: 768px){
+    .navbar .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
