@@ -156,6 +156,7 @@ section{
     letter-spacing: .1rem;
     font-weight: 600;
     transition: .5s ease;
+    margin-bottom: 8px;
 }
 .btn:hover{
     background: white;
